@@ -3,11 +3,19 @@
 This repo contains the PyTorch-converted models for visual sentiment analysis trained on the
 [T4SA](http://t4sa.it) (Twitter for Sentiment Analysis) dataset presented in \[1\].
 
-## Usage Example
-```sh
-python predict.py images_list.txt --model vgg19_finetuned_all --batch_size 64 > predictions.csv
-```
-The output file contains three columns representing the probability of each image belonging respectively to the *negative*, *neutral*, and *positive* classes in this order.
+    [1] Vadicamo, L., Carrara, F., Cimino, A., Cresci, S., Dell'Orletta, F., Falchi, F. and Tesconi, M., 2017.
+        Cross-media learning for image sentiment analysis in the wild.
+        In Proceedings of the IEEE International Conference on Computer Vision Workshops (pp. 308-317).
+
+## Usage
+
+1. First, download the pretrained models. They are available as a GitHub release of this repository.
+
+2. Use the `predict.py` script to make predictions on images. Example:
+   ```sh
+   python predict.py images_list.txt --model vgg19_finetuned_all --batch_size 64 > predictions.csv
+   ```
+   The output file contains three columns representing the probability of each image belonging respectively to the *negative*, *neutral*, and *positive* classes in this order.
 
 ## Converting the original Caffe models
 
