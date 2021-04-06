@@ -9,6 +9,8 @@ This repo contains the PyTorch-converted models for visual sentiment analysis tr
 
 ## Usage
 
+0. Install Requirements: [PyTorch](https://pytorch.org/get-started/)
+
 1. Download the pretrained models:
    ```sh
    ./download_models.sh
@@ -16,7 +18,7 @@ This repo contains the PyTorch-converted models for visual sentiment analysis tr
 
 2. Use the `predict.py` script to make predictions on images. Example:
    ```sh
-   python predict.py images_list.txt --model vgg19_finetuned_all --batch_size 64 > predictions.csv
+   python predict.py images_list.txt --model vgg19_finetuned_all --batch-size 64 > predictions.csv
    ```
    The output file contains three columns representing the probability of each image belonging respectively to the *negative*, *neutral*, and *positive* classes in this order.
 
