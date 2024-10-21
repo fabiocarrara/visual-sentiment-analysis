@@ -1,3 +1,7 @@
+# 🔥 CHECK OUT v2 (new data, new models) 🔥 https://fabiocarrara.github.io/cross-modal-visual-sentiment-analysis/
+
+---
+
 # Cross-Media Learning for Image Sentiment Analysis in the Wild
 
 This repo contains the PyTorch-converted models for visual sentiment analysis trained on the
