@@ -34,7 +34,7 @@ We recommend using the pre-built Docker image:
 docker pull mmdnn/mmdnn:cpu.small
 ```
 
-First, download the original models available at http://t4sa.it and extract them following this
+First, download the original models available at http://www.t4sa.it and extract them following this
 folder structure:
 ```
 original-models/
