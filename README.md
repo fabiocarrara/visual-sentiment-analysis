@@ -5,7 +5,7 @@
 # Cross-Media Learning for Image Sentiment Analysis in the Wild
 
 This repo contains the PyTorch-converted models for visual sentiment analysis trained on the
-[T4SA](http://t4sa.it) (Twitter for Sentiment Analysis) dataset presented in \[1\].
+[T4SA](http://www.t4sa.it) (Twitter for Sentiment Analysis) dataset presented in \[1\].
 
     [1] Vadicamo, L., Carrara, F., Cimino, A., Cresci, S., Dell'Orletta, F., Falchi, F. and Tesconi, M., 2017.
         Cross-media learning for image sentiment analysis in the wild.
